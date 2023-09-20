@@ -1,6 +1,6 @@
 ## Data
-train_test_split = 0.8
-random_seed = 1881
+test_split = 0.15
+random_seed = 2220
 
 ## Training
 batch_size = 512
@@ -16,4 +16,5 @@ compute_dim = 256
 num_classes = 9
 causal_conv = False
 num_resblocks = 2
-patience_lim = 5    # early stopper callback patience
+patience_lim = 8    # early stopper callback patience
+escb_beta = 0.25    # sensitivity margin
