@@ -45,7 +45,7 @@ device = t.device('cuda' if t.cuda.is_available() else 'cpu')
 
 
 ## Load data
-dataset_path = "../dataset_endlich/Dataset_Wav2vec20_10s/"
+dataset_path = "/DATA/dataset_belen/Dataset_Wav2vec20_3s/"
 
 trainset, validset, testset = h.split_dataset(dataset_path = dataset_path,
                                               log_file = log_file,
